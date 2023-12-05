@@ -55,7 +55,6 @@ class Calculator {
   }
 
   calculate(str) {
-    // 10 +   2 *    (   6 - (4 + 1) / 2) + 7
     str = str.replace(/\s/g, "");
     if (str.includes("/0")) {
       throw new Error
